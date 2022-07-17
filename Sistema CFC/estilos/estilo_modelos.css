@@ -1,0 +1,25 @@
+li{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+li > a{
+    text-decoration: none;
+    color: black;
+}
+
+li > a:hover{
+    
+}
+
+div{
+    
+    display: inline-flexbox;
+    width: fit-content;
+}
+
+#seg{
+    
+    width: 250px;
+    height: 200px;
+}
