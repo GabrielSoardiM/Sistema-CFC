@@ -1,0 +1,48 @@
+h2{
+    text-align: center;
+}
+
+ul{
+    margin-top: 100px;
+    margin: auto;
+    width: fit-content;
+}
+
+li{
+    font-size: 1.7em;
+    text-decoration: underline;
+    margin: 20px;
+}
+
+li > a{
+    text-decoration: none;
+    color: black;
+}
+
+li > a:hover{
+    text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.3);
+    font-size: 1.05em;
+}
+
+div{
+    margin: 50px;
+    width: auto;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#sistema{
+    margin-top: 150px;
+}
+
+#documento{
+    width: 200px;
+    margin-top: 150px;
+}
+
+img{
+    display: block;
+    margin: 130px 100px;
+    margin: auto;
+}

@@ -1,0 +1,47 @@
+main{
+    height: fit-content;
+    padding: 5px 0px 0px 0px;
+    margin-bottom: 5px;
+}
+
+div{
+    margin: 30px 50px 0px 50px;
+    width: auto;
+    box-shadow: none;
+}
+
+h2{
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    width: 50%;
+    margin-left: 70px;
+    text-align: center;
+}
+
+li{
+    font-size: 1.7em;
+    text-decoration: underline;
+    margin: 0px 20px 20px 20px;
+    text-align: center;
+}
+
+li > a{
+    text-decoration: none;
+    color: black;
+}
+
+li > a:hover{
+    text-shadow: 1px 1px 3px rgb(136, 135, 133);
+    font-size: 1.05em;
+}
+
+img{
+    float: right;
+    margin: 0px 200px 30px 0px;
+    display: inline-block;
+
+    
+}
