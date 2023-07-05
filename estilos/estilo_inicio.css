@@ -5,65 +5,49 @@
     --color4: #ffffff;
 }
 
-h2{
-    display: inline;    
-    margin: 20px;
-}
-
-div{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: block;
-}
-
-.container{
+div.container{
     background-color: var(--color1);
-    width: auto;
-    height: fit-content;
     display: flex;
     align-items: center;
-    flex-direction: row;
     justify-content: center;
     border-radius: 20px;
-    margin-top: 100px;
+    box-shadow: 1px 1px 5px 1px rgb(0, 0, 0, 0.5);
+    margin: 10vh 4vh 1vh 4vh;
 }
 
-.box{
+div.box{
     background-color: var(--color2);
     width: 500px;
     height: 250px;
     margin: 50px 0px 50px 150px;
     border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgb(0, 0, 0, 0.5);
+}
+
+table{
+    border-collapse: collapse;
+    width: 85vw;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 5px 1px rgb(0, 0, 0, 0.3);
+    
+}
+
+th{
+    font-size: 1.2em;
+}
+
+td, th{
+    border: 2px solid rgb(107, 107, 107);
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(107, 107, 107);
 }
 
 input[type="checkbox"]{
     float: right;
-    accent-color: var(--color4);
-}
-
-#tabela{
-    box-shadow: none;
-}
-
-#titulo_tabela{
-    box-shadow: none;
-    text-align: center;
-}
-
-#botao_troca_tabela{
-    border-radius: 100%;
-    border: 0;
-    font-size: larger;
-    box-shadow: 2px 2px 2px rgb(0 0 0);
-    margin: 0;
-    background-color: var(--color1);
-    font-weight: bold;
-}
-
-#botao_troca_tabela:hover{
-    background-color: var(--color2);
-}
-
-#botao_troca_tabela:active{
-    background-color: var(--color3);
+    accent-color: rgb(5, 167, 5);
 }

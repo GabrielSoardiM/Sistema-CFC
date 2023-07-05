@@ -14,30 +14,27 @@ body{
 
 main{
     background-color: rgb(177, 175, 175);
-    padding: 30px 0px 30px 0px;
-    margin: 30px;
+    padding: 5px 0px 30px 0px;
+    margin: auto;
+    margin-top: 30px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px 1px rgb(0, 0, 0, 0.5);
+    width: 92vw;
     min-width: 1120px;
 }
 
 header{
     text-align: center;
-    height: max-content;
     min-width: 1120px;
 }
 
 nav{
     background-color: lightgray;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.589);
-    margin: 25px;
-
-    max-width: 800px;
     min-width: 1120px;
-    height: fit-content;
-    width: 75%;
+    width: 90vw;
     margin: auto;
 }
 
@@ -45,22 +42,12 @@ nav > a{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    margin: 20px;
-    transition-duration: 0.2s;
-
-    max-width: 800px;
-    margin: 10px 10px 10px 10px;
-    font-size: 1.0em;
+    margin: 0vw 2vw 0vw 2vw;
 }
 
 nav > a:hover{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.300);
-    font-size: 1.1em;
-}
-
-div{
-    margin: 30px;
-    box-shadow: 1px 1px 5px 1px rgb(0, 0, 0, 0.5);
+    text-decoration: underline;
 }
 
 h1{
@@ -74,28 +61,6 @@ h2{
     font-size: 2em;
 }
 
-table{
-    border-collapse: collapse;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 1px 1px 5px 1px rgb(0, 0, 0, 0.3);
-}
-
-th{
-    font-size: 1.2em;
-}
-
-td, th{
-    border: 2px solid rgb(107, 107, 107);
-    text-align: left;
-    padding: 5px;
-    height: 1em;
-}
-
-tr:nth-child(even){
-    background-color: rgb(107, 107, 107);
-}
-
 p{
     font-size: 1.2em;
 }
@@ -103,7 +68,8 @@ p{
 footer{
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: 98vw;
     text-align: center;
+    margin: auto;
     font-family: serif;
 }
